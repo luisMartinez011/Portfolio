@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { MdMenu } from "react-icons/md"
-import "./Navbar.css";
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(true);
 
@@ -12,7 +12,6 @@ const Navbar = () => {
   }
 
   const handleNavbarToggle = (e) => {
-    console.log(e)
     setToggle(!toggle);
   }
 
