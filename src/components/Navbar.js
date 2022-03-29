@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { MdMenu } from "react-icons/md"
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   const linkStyle = ({ isActive }) => {
     return {
@@ -16,11 +16,11 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='absolute md:relative z-10 '>
-      <MdMenu className={' md:hidden top-5  bg-sky-400 w-12 h-12 ' + ((toggle) ? "absolute left-full" : "relative right-0")}
+    <nav className='fixed w-64 md:w-72 xl:w-80 h-full m-0 p-0'>
+      <MdMenu className={'absolute top-5 -z-10 lg:hidden bg-sky-400 w-12 h-12 ' + ((toggle) ? "left-full" : "left-0")}
         onClick={handleNavbarToggle}></MdMenu>
 
-      <div className={"flex flex-col h-screen w-64 md:w-72 xl:w-80 bg-yellow-300 relative md:static" 
+      <div className={"flex flex-col h-screen  bg-yellow-300 relative lg:static" 
       + ( (toggle)? "" : " right-full") }>
 
         <div className='flex h-64 md:h-72 xl:h-80 items-center 

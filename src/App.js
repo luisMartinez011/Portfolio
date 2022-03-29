@@ -9,7 +9,7 @@ import Projects from "./components/Projects"
 
 function App() {
   return (
-    <div className='flex overflow-hidden'>
+    <div className='flex '>
       <BrowserRouter>
         <Navbar></Navbar>
         <Routes path="/">

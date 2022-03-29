@@ -3,11 +3,12 @@ import React from 'react'
 const About = () => {
   return (
     <div className='
-    bg-green-500 h-full w-full
-     col-start-2 col-end-2'>
+    bg-green-500 h-3/6 w-full ml-60
+    '>
       dijf
     </div>
   )
 }
+
 
 export default About
