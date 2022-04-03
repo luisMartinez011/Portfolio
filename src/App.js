@@ -6,6 +6,7 @@ import About from "./components/About"
 import ContactMe from "./components/ContactMe"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
+import Thanks from "./components/Thanks"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='about' element={<About />} />
           <Route path='projects' element={<Projects />} />
           <Route path='contact' element={<ContactMe />} />
+          <Route path='thanks' element={<Thanks />} />
           <Route path='*' element={<About />} />
         </Routes>
       </BrowserRouter>
