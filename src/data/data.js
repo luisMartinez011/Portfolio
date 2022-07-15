@@ -1,8 +1,8 @@
-[
+const data = [
     {
         "id": 1,
         "name": "Example",
-        "description": "fdfdf",
+        "description": "<b>dfd</b>",
         "image": "dfdf"
     },
     {
@@ -12,3 +12,5 @@
         "image": "dfdf"
     }
 ]
+
+export default data;

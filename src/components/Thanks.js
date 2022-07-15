@@ -13,7 +13,9 @@ const Thanks = () => {
         <p>I am going to contact you later!</p>
         <button onClick={() => {
           navigate("/")
-        }}>Return</button>
+        }} className="bg-transparent hover:bg-indigo-500 text-white-700 
+        font-semibold hover:text-white py-2 px-4 border border-indigo-500 
+        hover:border-transparent rounded w-36 h-16 mt-5">Return</button>
       </div>
 
 

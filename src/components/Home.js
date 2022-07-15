@@ -1,6 +1,7 @@
 import React from 'react'
-import { ImGithub, ImStackoverflow } from "react-icons/im"
+import { ImGithub } from "react-icons/im"
 import { AiFillLinkedin } from "react-icons/ai"
+import { SiGmail } from 'react-icons/si'
 
 const Home = () => {
   const backgroundURL = "https://64.media.tumblr.com/a3bb214f4ab01b1e8d18458591592484/tumblr_p5n752fxZd1x5p4g9o1_640.gifv"
@@ -9,9 +10,9 @@ const Home = () => {
     <div className='flex flex-col justify-center w-full 
     xl:ml-80  h-screen  px-12
     text-center font-mono text-zinc-50 m-0 ' style={{
-      backgroundImage: `url(${backgroundURL})`,
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: "cover"
+        backgroundImage: `url(${backgroundURL})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: "cover"
       }}>
       <h1 className='text-6xl my-4'>Hi, I am Luis Martinez</h1>
       <p className='text-xl'>I am a full stack web developer. I enjoy building everything from small business sites to rich interactive web apps.</p>
@@ -23,15 +24,15 @@ const Home = () => {
         <a href='https://www.linkedin.com/in/luismartinez011/' target="_blank" rel="noreferrer" className='mx-5'>
           <AiFillLinkedin className='w-12 h-12' ></AiFillLinkedin>
         </a>
-        <a href='https://stackoverflow.com/users/16147833/luis-martinez' target="_blank" rel="noreferrer" className='mx-5'>
-          <ImStackoverflow className='w-12 h-12'></ImStackoverflow>
+        <a href='mailto:tauroluiseduardo@gmail.com' target="_blank" rel="noreferrer" className=' mx-5'>
+          <SiGmail className='w-12 h-12'></SiGmail>
         </a>
 
 
       </div>
 
 
-    </div>
+    </div >
   )
 }
 
