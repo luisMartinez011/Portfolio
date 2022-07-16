@@ -37,7 +37,7 @@ const About = () => {
               </p>
               <p>
                 <span className='font-bold text-xl'>Backend: </span>
-                NodeJS, ExpressJS, NestJs, Apollo Server
+                NodeJS, ExpressJS, NestJs, .NET Entity Framework
               </p>
             </div>
 
