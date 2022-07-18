@@ -13,9 +13,9 @@ const About = () => {
 
           I became a developer because I want to create, contribute and be a part of this amazing connection. </p>
       </div>
-      <hr className='mt-5 divide-red-600' />
-      <h1 className='text-5xl mt-5'>My skills</h1>
-      <section className='flex flex-col w-full mt-5 justify-between'>
+
+      <h1 className='text-5xl mt-7'>My skills</h1>
+      <section className='flex flex-col w-full  justify-between'>
 
         <div className='mt-10 w-full 2xl:w-9/12'>
           <h1 className='text-2xl'>Languages:</h1>
