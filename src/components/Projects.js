@@ -1,7 +1,6 @@
-import { useEffect, useState } from 'react';
-import { FaReact, FaDocker, FaNodeJs } from "react-icons/fa";
-import { SiTypescript, SiTailwindcss } from "react-icons/si";
+
 import image from "../img/SalesSystem.jpg"
+import nest from "../img/supermarketNest.jpg"
 
 const Projects = () => {
 
@@ -15,7 +14,7 @@ const Projects = () => {
         <div className='flex flex-row flex-wrap justify-between relative z-10'>
 
           <section key="1" className="w-full xl:w-3/6 my-4 p-4 ">
-            <div className=''>
+            <div>
               <img src={image} className=" object-cover 
               w-full " />
               <h1 className='text-3xl font-semibold'>Sales System </h1>
@@ -43,20 +42,28 @@ const Projects = () => {
             </div>
           </section>
 
-          {/* <section key="2" className=" w-full  my-4 p-4 ">
+          <section key="2" className=" w-full xl:w-3/6 my-4 p-4">
             <div>
-              <img  className="w-full h-52 object-cover " />
+              <img src={nest}
+                className="object-cover 
+                w-full h-3/5" />
             </div>
             <div>
               <h1 className='text-3xl font-semibold '>SuperMarket</h1>
               <p>
-                SuperMarket web papge. A <b>Typescript NodeJS</b> project using the
+                SuperMarket Api. A <b>Typescript NodeJS</b> project using the
                 backend framework <b>NestJS</b>  based in <b>ExpressJS</b> with MongoDB
-                as database. The frontend was made using <b>NextJS</b> framework.
-                This webpage is deployed in <b>Azure.</b>
+                as database.
               </p>
             </div>
-          </section> */}
+            <button
+              className='bg-transparent hover:bg-indigo-500 text-white-700 
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500 
+            hover:border-transparent rounded w-36 h-16 mt-5'>
+              <a href='https://github.com/luisMartinez011/nestjs-api'
+                target={"_blank"}>Source code</a>
+            </button>
+          </section>
 
         </div>
       </div>
