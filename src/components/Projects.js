@@ -23,7 +23,6 @@ const Projects = () => {
                 Web app built with <b>Angular</b> and Typescript.
                 <b> C# .NET Entity Framework</b> and <b>PostgreSQL</b> were used for backend
                 following <b>MVC</b> architecture.
-                <b> JWT</b> is used for user authentication and
                 <b> Swagger Api</b> is used for documentation.
                 This webpage is deployed in <b>Azure.</b>
               </p>
@@ -38,7 +37,8 @@ const Projects = () => {
                 className='bg-transparent hover:bg-indigo-500 text-white-700 
             font-semibold hover:text-white py-2 px-4 border border-indigo-500 
             hover:border-transparent rounded w-36 h-16 mt-5 ml-5'>
-                <a>Web Page</a>
+                <a href='https://dotnetventas.azurewebsites.net/products'
+                  target={"_blank"}>Web Page</a>
               </button>
             </div>
           </section>
