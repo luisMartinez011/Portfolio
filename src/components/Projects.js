@@ -32,13 +32,13 @@ const Projects = () => {
                 <a href='https://github.com/luisMartinez011/Sales-System-Api-.NET'
                   target={"_blank"}>Source code</a>
               </button>
-              <button
+              {/* <button
                 className='bg-transparent hover:bg-indigo-500 text-white-700 
             font-semibold hover:text-white py-2 px-4 border border-indigo-500 
             hover:border-transparent rounded w-36 h-16 mt-5 ml-5'>
                 <a href='https://dotnetventas.azurewebsites.net/products'
                   target={"_blank"}>Web Page</a>
-              </button>
+              </button> */}
             </div>
           </section>
 
@@ -63,6 +63,13 @@ const Projects = () => {
               <a href='https://github.com/luisMartinez011/nestjs-api'
                 target={"_blank"}>Source code</a>
             </button>
+            <button
+                className='bg-transparent hover:bg-indigo-500 text-white-700 
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500 
+            hover:border-transparent rounded w-36 h-16 mt-5 ml-5'>
+                <a href='https://luismartinez011-nestjs.herokuapp.com/docs/'
+                  target={"_blank"}>Web Page</a>
+              </button>
           </section>
 
         </div>
