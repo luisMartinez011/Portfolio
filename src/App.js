@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, HashRouter } from 'react-router-dom';
 import './App.css';
 
 import Home from "./components/Home"
@@ -11,7 +11,7 @@ import Thanks from "./components/Thanks"
 function App() {
   return (
     <div className='flex '>
-      <BrowserRouter>
+      <HashRouter hashType="slash">
         <Navbar></Navbar>
         <Routes path="/">
           <Route path='/' element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
           <Route path='thanks' element={<Thanks />} />
           <Route path='*' element={<Home />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
 
 

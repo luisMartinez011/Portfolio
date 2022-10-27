@@ -23,7 +23,7 @@ const Projects = () => {
                 <b> C# .NET Entity Framework</b> and <b>PostgreSQL</b> were used for backend
                 following <b>MVC</b> architecture.
                 <b> Swagger Api</b> is used for documentation.
-                This webpage is deployed in <b>Azure.</b>
+                This webpage is deployed in <b>Heroku.</b>
               </p>
               <button
                 className='bg-transparent hover:bg-indigo-500 text-white-700 
@@ -36,7 +36,7 @@ const Projects = () => {
                 className='bg-transparent hover:bg-indigo-500 text-white-700 
             font-semibold hover:text-white py-2 px-4 border border-indigo-500 
             hover:border-transparent rounded w-36 h-16 mt-5 ml-5'>
-                <a href='https://dotnetventas.azurewebsites.net/products'
+                <a href='https://dotnet-ventas-angular.herokuapp.com/products'
                   target={"_blank"}>Web Page</a>
               </button>
             </div>
@@ -49,11 +49,13 @@ const Projects = () => {
                 w-full h-3/5" />
             </div>
             <div>
-              <h1 className='text-3xl font-semibold '>SuperMarket</h1>
+              <h1 className='text-3xl font-semibold '>Simpe e-commerce Api</h1>
               <p>
-                SuperMarket Api. A <b>Typescript NodeJS</b> project using the
-                backend framework <b>NestJS</b>  based in <b>ExpressJS</b> with MongoDB
+                E-commerce Api built with <b>NestJS</b>, a backend <b>JavaScript </b>
+                framework based in <b>ExpressJS</b> and <b>NodeJS</b> using MongoDB
                 as database.
+                <b> Swagger</b> is used for documentation and it
+                was deployed using Heroku
               </p>
             </div>
             <button
@@ -62,6 +64,13 @@ const Projects = () => {
             hover:border-transparent rounded w-36 h-16 mt-5'>
               <a href='https://github.com/luisMartinez011/nestjs-api'
                 target={"_blank"}>Source code</a>
+            </button>
+            <button
+              className='bg-transparent hover:bg-indigo-500 text-white-700 
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500 
+            hover:border-transparent rounded w-36 h-16 mt-5 ml-5'>
+              <a href='https://luismartinez011-nestjs.herokuapp.com/docs/'
+                target={"_blank"}>Documentation</a>
             </button>
           </section>
 
