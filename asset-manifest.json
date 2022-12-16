@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4a0b2e6b.css",
-    "main.js": "/Portfolio/static/js/main.ae9a6254.js",
+    "main.css": "/Portfolio/static/css/main.aaf71371.css",
+    "main.js": "/Portfolio/static/js/main.3bcfa3e9.js",
     "static/media/profile picture.jpg": "/Portfolio/static/media/profile picture.68a328848d259657a2fa.jpg",
     "static/media/supermarketNest.jpg": "/Portfolio/static/media/supermarketNest.060cbc782578ddd78b2f.jpg",
+    "static/media/prayersMX.PNG": "/Portfolio/static/media/prayersMX.fed7b64b1ef94efa69d8.PNG",
     "static/media/SalesSystem.jpg": "/Portfolio/static/media/SalesSystem.0e40527acd8205fa46ef.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.4a0b2e6b.css.map": "/Portfolio/static/css/main.4a0b2e6b.css.map",
-    "main.ae9a6254.js.map": "/Portfolio/static/js/main.ae9a6254.js.map"
+    "main.aaf71371.css.map": "/Portfolio/static/css/main.aaf71371.css.map",
+    "main.3bcfa3e9.js.map": "/Portfolio/static/js/main.3bcfa3e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a0b2e6b.css",
-    "static/js/main.ae9a6254.js"
+    "static/css/main.aaf71371.css",
+    "static/js/main.3bcfa3e9.js"
   ]
 }
