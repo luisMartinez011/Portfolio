@@ -1,6 +1,7 @@
 
 import image from "../img/SalesSystem.jpg"
 import nest from "../img/supermarketNest.jpg"
+import prayers from "../img/prayersMX.PNG"
 
 const Projects = () => {
 
@@ -15,7 +16,41 @@ const Projects = () => {
 
           <section key="1" className="w-full xl:w-3/6 my-4 p-4 ">
             <div>
-              <img src={image} className=" object-cover 
+              <img src={prayers} className=" object-cover
+              w-full " />
+              <h1 className='text-3xl font-semibold'>Prayers MX api</h1>
+              <p>
+                API for a local enterprise to manage sales, the API is developed in <b>Ruby on Rails</b> with <b>TDD architecture.</b>
+                <ul class="list-disc">
+                  <li><b>Rspec and FactoryBot</b> were used to write fuctional, unit, and integration tests for application quality assurance. </li>
+                  <li><b>CI/CD</b> implementation with github workflows.</li>
+                  <li>MongoDB used as database with mongoid gem. </li>
+                  <li>Documentation created with rswag a Ruby gem to create <b>Swagger openapi</b> documentation.</li>
+                  <li>Deployment in herokuapp, but it is considered to be deployed in <b>AWS</b> in the future.</li>
+                </ul>
+
+
+              </p>
+              <button
+                className='bg-transparent hover:bg-indigo-500 text-white-700
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500
+            hover:border-transparent rounded w-36 h-16 mt-5'>
+                <a href='https://github.com/luisMartinez011/prayersMX'
+                  target={"_blank"}>Source code</a>
+              </button>
+              <button
+                className='bg-transparent hover:bg-indigo-500 text-white-700
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500
+            hover:border-transparent rounded w-36 h-16 mt-5 ml-5'>
+                <a href='https://whispering-hollows-99018.herokuapp.com/api-docs/index.html'
+                  target={"_blank"}>Web Page</a>
+              </button>
+            </div>
+          </section>
+
+          <section key="1" className="w-full xl:w-3/6 my-4 p-4 ">
+            <div>
+              <img src={image} className=" object-cover
               w-full " />
               <h1 className='text-3xl font-semibold'>Sales System </h1>
               <p>
@@ -26,15 +61,15 @@ const Projects = () => {
                 This webpage is deployed in <b>Heroku.</b>
               </p>
               <button
-                className='bg-transparent hover:bg-indigo-500 text-white-700 
-            font-semibold hover:text-white py-2 px-4 border border-indigo-500 
+                className='bg-transparent hover:bg-indigo-500 text-white-700
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500
             hover:border-transparent rounded w-36 h-16 mt-5'>
                 <a href='https://github.com/luisMartinez011/Sales-System-Api-.NET'
                   target={"_blank"}>Source code</a>
               </button>
               {/* <button
-                className='bg-transparent hover:bg-indigo-500 text-white-700 
-            font-semibold hover:text-white py-2 px-4 border border-indigo-500 
+                className='bg-transparent hover:bg-indigo-500 text-white-700
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500
             hover:border-transparent rounded w-36 h-16 mt-5 ml-5'>
                 <a href='https://dotnet-ventas-angular.herokuapp.com/products'
                   target={"_blank"}>Web Page</a>
@@ -45,7 +80,7 @@ const Projects = () => {
           <section key="2" className=" w-full xl:w-3/6 my-4 p-4">
             <div>
               <img src={nest}
-                className="object-cover 
+                className="object-cover
                 w-full h-3/5" />
             </div>
             <div>
@@ -59,19 +94,19 @@ const Projects = () => {
               </p>
             </div>
             <button
-              className='bg-transparent hover:bg-indigo-500 text-white-700 
-            font-semibold hover:text-white py-2 px-4 border border-indigo-500 
+              className='bg-transparent hover:bg-indigo-500 text-white-700
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500
             hover:border-transparent rounded w-36 h-16 mt-5'>
               <a href='https://github.com/luisMartinez011/nestjs-api'
                 target={"_blank"}>Source code</a>
             </button>
-            <button
-              className='bg-transparent hover:bg-indigo-500 text-white-700 
-            font-semibold hover:text-white py-2 px-4 border border-indigo-500 
+            {/* <button
+              className='bg-transparent hover:bg-indigo-500 text-white-700
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500
             hover:border-transparent rounded w-36 h-16 mt-5 ml-5'>
               <a href='https://luismartinez011-nestjs.herokuapp.com/docs/'
                 target={"_blank"}>Documentation</a>
-            </button>
+            </button> */}
           </section>
 
         </div>
