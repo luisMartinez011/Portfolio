@@ -2,7 +2,7 @@
 import image from "../img/SalesSystem.jpg"
 import nest from "../img/supermarketNest.jpg"
 import prayers from "../img/prayersMX.PNG"
-
+import prayersFrontend from "../img/prayersWebpage.PNG"
 const Projects = () => {
 
   return (
@@ -18,19 +18,17 @@ const Projects = () => {
             <div>
               <img src={prayers} className=" object-cover
               w-full " />
-              <h1 className='text-3xl font-semibold'>Prayers MX api</h1>
+              <h1 className='text-3xl font-semibold mt-2'>Prayers MX api</h1>
               <p>
                 API for a local enterprise to manage sales, the API is developed in <b>Ruby on Rails</b> with <b>TDD architecture.</b>
-                <ul class="list-disc">
-                  <li><b>Rspec and FactoryBot</b> were used to write fuctional, unit, and integration tests for application quality assurance. </li>
-                  <li><b>CI/CD</b> implementation with github workflows.</li>
-                  <li>MongoDB used as database with mongoid gem. </li>
-                  <li>Documentation created with rswag a Ruby gem to create <b>Swagger openapi</b> documentation.</li>
-                  <li>Deployment in herokuapp, but it is considered to be deployed in <b>AWS</b> in the future.</li>
-                </ul>
-
-
               </p>
+              <ul className="list-disc">
+                <li><b>Rspec and FactoryBot</b> were used to write fuctional, unit, and integration tests for application quality assurance. </li>
+                <li><b>CI/CD</b> implementation with github workflows.</li>
+                <li><b>MongoDB</b> used as database with mongoid gem. </li>
+                <li>Documentation created with rswag a Ruby gem to create <b>Swagger openapi</b> documentation.</li>
+                <li>Deployment in herokuapp, but it is considered to be deployed in <b>AWS</b> in the future.</li>
+              </ul>
               <button
                 className='bg-transparent hover:bg-indigo-500 text-white-700
             font-semibold hover:text-white py-2 px-4 border border-indigo-500
@@ -48,11 +46,45 @@ const Projects = () => {
             </div>
           </section>
 
-          <section key="1" className="w-full xl:w-3/6 my-4 p-4 ">
+          <section key="2" className="w-full xl:w-3/6 my-4 p-4 ">
+            <div>
+              <img src={prayersFrontend} className=" object-cover
+              w-full " />
+              <h1 className='text-3xl font-semibold mt-2'>Prayers MX Webpage</h1>
+              <p>
+                Webpage for a local enterprise to manage sales, it uses the api from the previous project
+              </p>
+              <ul className="list-disc">
+                <li><b>Bootstrap React & Tailwind CSS</b> framework were used to style the webpage</li>
+                <li>
+                  <b>Typescript</b> is used to have a better clean code
+                </li>
+                <li>
+                  Webpage deployed in Github pages
+                </li>
+              </ul>
+              <button
+                className='bg-transparent hover:bg-indigo-500 text-white-700
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500
+            hover:border-transparent rounded w-36 h-16 mt-5'>
+                <a href='https://github.com/luisMartinez011/PrayersWebpage'
+                  target={"_blank"}>Source code</a>
+              </button>
+              <button
+                className='bg-transparent hover:bg-indigo-500 text-white-700
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500
+            hover:border-transparent rounded w-36 h-16 mt-5 ml-5'>
+                <a href='https://luismartinez011.github.io/PrayersWebpage/#/home'
+                  target={"_blank"}>Web Page</a>
+              </button>
+            </div>
+          </section>
+
+          <section key="3" className="w-full xl:w-3/6 my-4 p-4 ">
             <div>
               <img src={image} className=" object-cover
               w-full " />
-              <h1 className='text-3xl font-semibold'>Sales System </h1>
+              <h1 className='text-3xl font-semibold mt-2'>C# .NET project </h1>
               <p>
                 Web app built with <b>Angular</b> and Typescript.
                 <b> C# .NET Entity Framework</b> and <b>PostgreSQL</b> were used for backend
@@ -77,14 +109,14 @@ const Projects = () => {
             </div>
           </section>
 
-          <section key="2" className=" w-full xl:w-3/6 my-4 p-4">
+          <section key="4" className=" w-full xl:w-3/6 my-4 p-4">
             <div>
               <img src={nest}
                 className="object-cover
                 w-full h-3/5" />
             </div>
             <div>
-              <h1 className='text-3xl font-semibold '>Simpe e-commerce Api</h1>
+              <h1 className='text-3xl font-semibold mt-2'>NestJS e-commerce Api</h1>
               <p>
                 E-commerce Api built with <b>NestJS</b>, a backend <b>JavaScript </b>
                 framework based in <b>ExpressJS</b> and <b>NodeJS</b> using MongoDB
