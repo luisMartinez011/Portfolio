@@ -9,25 +9,29 @@ const Home = () => {
   return (
     <div className='flex flex-col justify-center w-full
     xl:ml-80  h-screen  px-12
-    text-center font-mono text-zinc-50 m-0 z-10' style={{
+    text-center font-mono text-zinc-50 m-0 ' style={{
         backgroundImage: `url(${backgroundURL})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: "cover"
       }}>
-      <h1 className='text-6xl my-4'>Hi, I am Luis Martinez</h1>
-      <p className='text-xl'>I am a full stack web developer. I enjoy building everything from small business sites to rich interactive web apps.</p>
 
-      <div className='flex flex-row justify-center my-4'>
-        <a href='https://github.com/luisMartinez011' target="_blank" rel="noreferrer" className='mx-5'>
-          <ImGithub className='w-12 h-12 '></ImGithub>
-        </a>
-        <a href='https://www.linkedin.com/in/luismartinez011/' target="_blank" rel="noreferrer" className='mx-5'>
-          <AiFillLinkedin className='w-12 h-12' ></AiFillLinkedin>
-        </a>
-        <a href='mailto:tauroluiseduardo@gmail.com' target="_blank" rel="noreferrer" className=' mx-5'>
-          <SiGmail className='w-12 h-12'></SiGmail>
-        </a>
+      <div className="z-10">
+        <h1 className='text-6xl my-4'>Hi, I am Luis Martinez</h1>
+        <p className='text-xl'>I am a full stack web developer. I enjoy building everything from small business sites to rich interactive web apps.</p>
 
+        <div className='flex flex-row justify-center my-4'>
+          <a href='https://github.com/luisMartinez011' target="_blank" rel="noreferrer" className='mx-5'>
+            <ImGithub className='w-12 h-12 '></ImGithub>
+          </a>
+          <a href='https://www.linkedin.com/in/luismartinez011/' target="_blank" rel="noreferrer" className='mx-5'>
+            <AiFillLinkedin className='w-12 h-12' ></AiFillLinkedin>
+          </a>
+          <a href='mailto:tauroluiseduardo@gmail.com' target="_blank" rel="noreferrer" className=' mx-5'>
+            <SiGmail className='w-12 h-12'></SiGmail>
+          </a>
+
+
+        </div>
 
       </div>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import awsCloudPractitioner from "../img/awsCloudPractitioner.PNG"
 
 const About = () => {
   return (
@@ -62,6 +63,10 @@ const About = () => {
           </div>
         </div>
 
+        <h1 className='text-5xl mt-7'>My skills</h1>
+        <h1 className='text-2xl mt-10'>AWS Cloud Practitioner:</h1>
+        <img src={awsCloudPractitioner} className=" object-cover
+              w-full " />
 
 
       </section>
