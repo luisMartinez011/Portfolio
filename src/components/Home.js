@@ -7,9 +7,9 @@ const Home = () => {
   const backgroundURL = "https://64.media.tumblr.com/a3bb214f4ab01b1e8d18458591592484/tumblr_p5n752fxZd1x5p4g9o1_640.gifv"
 
   return (
-    <div className='flex flex-col justify-center w-full 
+    <div className='flex flex-col justify-center w-full
     xl:ml-80  h-screen  px-12
-    text-center font-mono text-zinc-50 m-0 ' style={{
+    text-center font-mono text-zinc-50 m-0 z-10' style={{
         backgroundImage: `url(${backgroundURL})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: "cover"

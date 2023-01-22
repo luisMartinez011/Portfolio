@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <article className='xl:ml-80 h-screen  
-    w-full 
+    <article className='xl:ml-80 h-screen
+    w-full
     pt-20 p-4 sm:p-28 sm:pt-20 font-mono '>
       <h1 className='text-5xl'>About me</h1>
       <div>
@@ -13,16 +13,16 @@ const About = () => {
 
           I became a developer because I want to create, contribute and be a part of this amazing connection. </p>
       </div>
-      <hr className='mt-5 divide-red-600' />
-      <h1 className='text-5xl mt-5'>My skills</h1>
-      <section className='flex flex-col w-full mt-5 justify-between'>
+
+      <h1 className='text-5xl mt-7'>My skills</h1>
+      <section className='flex flex-col w-full  justify-between'>
 
         <div className='mt-10 w-full 2xl:w-9/12'>
           <h1 className='text-2xl'>Languages:</h1>
           <div className='flex items-center w-full h-28 bg-red-500/50
           text-lg mt-5'>
             <div className='w-5 h-full bg-red-600'></div>
-            <p className='ml-5'>JavaScript, TypeScript, C#, HTML/CSS</p>
+            <p className='ml-5'>Ruby, JavaScript, TypeScript, C#, HTML/CSS</p>
           </div>
         </div>
 
@@ -37,7 +37,7 @@ const About = () => {
               </p>
               <p>
                 <span className='font-bold text-xl'>Backend: </span>
-                NodeJS, ExpressJS, NestJs, .NET Entity Framework
+                Ruby on Rails, NodeJS, ExpressJS, NestJs, .NET Entity Framework
               </p>
             </div>
 
@@ -58,18 +58,10 @@ const About = () => {
           <div className='flex items-center w-full h-28 bg-red-500/50
           text-lg mt-5'>
             <div className='w-5 h-full bg-red-600'></div>
-            <p className='pl-5'>Azure, Docker</p>
+            <p className='pl-5'>AWS, Docker, Git, Github, React Native, Linux</p>
           </div>
         </div>
 
-        <div className='mt-10 w-full 2xl:w-9/12'>
-          <h1 className='text-2xl'>Other:</h1>
-          <div className='flex items-center w-full h-28 bg-red-500/50
-          text-lg mt-5'>
-            <div className='w-5 h-full bg-red-600'></div>
-            <p className='pl-5'>Git, Github, React Native, Linux </p>
-          </div>
-        </div>
 
 
       </section>
