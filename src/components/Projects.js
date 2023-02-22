@@ -3,6 +3,8 @@ import image from "../img/SalesSystem.jpg"
 import nest from "../img/supermarketNest.jpg"
 import prayers from "../img/prayersMX.PNG"
 import prayersFrontend from "../img/prayersWebpage.PNG"
+import dollartracking from "../img/dollartracking.PNG"
+
 const Projects = () => {
 
   return (
@@ -23,27 +25,63 @@ const Projects = () => {
                 API for a local enterprise to manage sales, the API is developed in <b>Ruby on Rails</b> with <b>TDD architecture.</b>
               </p>
               <ul className="list-disc">
-                <li><b>Rspec and FactoryBot</b> were used to write fuctional, unit, and integration tests for application quality assurance. </li>
-                <li><b>CI/CD</b> implementation with github workflows.</li>
-                <li><b>MongoDB</b> used as database with mongoid gem. </li>
-                <li>Documentation created with rswag a Ruby gem to create <b>Swagger openapi</b> documentation.</li>
-                <li>Deployment in herokuapp, but it is considered to be deployed in <b>AWS</b> in the future.</li>
+                <li>Implemented automated testing with RSpec to ensure code quality, prevent regressions, and increase application confidence.</li>
+                <li>Implemented user authentication and authorization using Devise, a flexible and secure authentication solution for Ruby on Rails applications.</li>
+                <li>Utilized AWS RDS for database management, taking advantage of its automatic backups, high availability, and scalability.</li>
               </ul>
               <button
                 className='bg-transparent hover:bg-indigo-500 text-white-700
             font-semibold hover:text-white py-2 px-4 border border-indigo-500
             hover:border-transparent rounded w-36 h-16 mt-5'>
-                <a href='https://github.com/luisMartinez011/prayersMX'
+                <a href='https://github.com/luisMartinez011/prayersMX_rds'
                   target={"_blank"}>Source code</a>
               </button>
               <button
                 className='bg-transparent hover:bg-indigo-500 text-white-700
             font-semibold hover:text-white py-2 px-4 border border-indigo-500
             hover:border-transparent rounded w-36 h-16 mt-5 ml-5'>
-                <a href='https://whispering-hollows-99018.herokuapp.com/api-docs/index.html'
+                <a href='https://secure-lowlands-54066.herokuapp.com/api-docs/index.html'
                   target={"_blank"}>Web Page</a>
               </button>
             </div>
+          </section>
+
+          <section key="5" className=" w-full xl:w-3/6 my-4 p-4">
+            <div>
+              <img src={dollartracking}
+                className="object-cover
+                w-full h-3/5" />
+            </div>
+            <div>
+              <h1 className='text-3xl font-semibold mt-2'>Dollar currency tracking</h1>
+              <p>
+                Developed a solution to track the dollar currency exchange
+                rate using Python, a versatile programming language known for its
+                simplicity and ease of use.
+              </p>
+              <ul className="list-disc">
+                <li>
+                  Leveraged AWS Lambda to create serverless functions that execute code in response to events, reducing infrastructure complexity and costs.
+                </li>
+                <li>
+                  Utilized AWS SNS to send me notifications via email
+                </li>
+                <li>
+                  Utilized AWS Step Functions to coordinate the execution of serverless functions and AWS Lambda, creating a workflow that automated the currency tracking process and provided greater reliability and scalability.
+                </li>
+                <li>
+                  Used AWS CloudFormation to manage infrastructure as code, defining the resources and configurations needed for the application in a single, declarative template.
+
+                </li>
+              </ul>
+            </div>
+            <button
+              className='bg-transparent hover:bg-indigo-500 text-white-700
+            font-semibold hover:text-white py-2 px-4 border border-indigo-500
+            hover:border-transparent rounded w-36 h-16 mt-5'>
+              <a href='https://github.com/luisMartinez011/bot-dollar-currency'
+                target={"_blank"}>Source code</a>
+            </button>
           </section>
 
           <section key="2" className="w-full xl:w-3/6 my-4 p-4 ">
