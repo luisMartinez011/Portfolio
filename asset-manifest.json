@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d7255b38.css",
-    "main.js": "/Portfolio/static/js/main.f30718cc.js",
+    "main.js": "/Portfolio/static/js/main.1bc3b924.js",
     "static/media/prayersWebpage.PNG": "/Portfolio/static/media/prayersWebpage.526fcecea89e97c9cdb9.PNG",
     "static/media/profile picture.jpg": "/Portfolio/static/media/profile picture.68a328848d259657a2fa.jpg",
     "static/media/supermarketNest.jpg": "/Portfolio/static/media/supermarketNest.060cbc782578ddd78b2f.jpg",
     "static/media/prayersMX.PNG": "/Portfolio/static/media/prayersMX.fed7b64b1ef94efa69d8.PNG",
     "static/media/SalesSystem.jpg": "/Portfolio/static/media/SalesSystem.0e40527acd8205fa46ef.jpg",
+    "static/media/dollartracking.PNG": "/Portfolio/static/media/dollartracking.ed31d5f74a0f41708a83.PNG",
     "static/media/awsCloudPractitioner.PNG": "/Portfolio/static/media/awsCloudPractitioner.221e81b61215c3896062.PNG",
     "index.html": "/Portfolio/index.html",
     "main.d7255b38.css.map": "/Portfolio/static/css/main.d7255b38.css.map",
-    "main.f30718cc.js.map": "/Portfolio/static/js/main.f30718cc.js.map"
+    "main.1bc3b924.js.map": "/Portfolio/static/js/main.1bc3b924.js.map"
   },
   "entrypoints": [
     "static/css/main.d7255b38.css",
-    "static/js/main.f30718cc.js"
+    "static/js/main.1bc3b924.js"
   ]
 }
